@@ -1,0 +1,115 @@
+[
+    {
+        "label": "add",
+        "importPath": "operations.add",
+        "description": "operations.add",
+        "isExtraImport": true,
+        "detail": "operations.add",
+        "documentation": {}
+    },
+    {
+        "label": "subtract",
+        "importPath": "operations.subtract",
+        "description": "operations.subtract",
+        "isExtraImport": true,
+        "detail": "operations.subtract",
+        "documentation": {}
+    },
+    {
+        "label": "multiply",
+        "importPath": "operations.multiply",
+        "description": "operations.multiply",
+        "isExtraImport": true,
+        "detail": "operations.multiply",
+        "documentation": {}
+    },
+    {
+        "label": "divide",
+        "importPath": "operations.divide",
+        "description": "operations.divide",
+        "isExtraImport": true,
+        "detail": "operations.divide",
+        "documentation": {}
+    },
+    {
+        "label": "add",
+        "kind": 2,
+        "importPath": "operations.add",
+        "description": "operations.add",
+        "peekOfCode": "def add(x, y):\n    return x + y",
+        "detail": "operations.add",
+        "documentation": {}
+    },
+    {
+        "label": "divide",
+        "kind": 2,
+        "importPath": "operations.divide",
+        "description": "operations.divide",
+        "peekOfCode": "def divide(x, y):\n    if y == 0:\n        return \"Division by zero error\"\n    return x / y",
+        "detail": "operations.divide",
+        "documentation": {}
+    },
+    {
+        "label": "multiply",
+        "kind": 2,
+        "importPath": "operations.multiply",
+        "description": "operations.multiply",
+        "peekOfCode": "def multiply(x, y):\n    return x * y",
+        "detail": "operations.multiply",
+        "documentation": {}
+    },
+    {
+        "label": "subtract",
+        "kind": 2,
+        "importPath": "operations.subtract",
+        "description": "operations.subtract",
+        "peekOfCode": "def subtract(x, y):\n    return x - y",
+        "detail": "operations.subtract",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def main(n1, n2, o):\n    if n1 and n2 and o == \"\":\n        print(\"\\033[33m *** Please enter your numbers and operand ***\\033[30m\")\n    else:\n        match o:\n            case \"+\":\n                return(add(n1, n2))\n            case \"-\":\n                return(subtract(n1, n2))\n            case \"*\":",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "num_1",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "num_1 = int(input(\"\\033[33m ----- Enter your first number: -----\\033[30m\\n\"))\nnum_2 = int(input(\"\\033[33m ----- Enter your second number: -----\\033[30m\\n\"))\nop = input(\"\\033[33m ----- Enter your operand: -----\\033[30m\\n\")\ndef main(n1, n2, o):\n    if n1 and n2 and o == \"\":\n        print(\"\\033[33m *** Please enter your numbers and operand ***\\033[30m\")\n    else:\n        match o:\n            case \"+\":\n                return(add(n1, n2))",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "num_2",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "num_2 = int(input(\"\\033[33m ----- Enter your second number: -----\\033[30m\\n\"))\nop = input(\"\\033[33m ----- Enter your operand: -----\\033[30m\\n\")\ndef main(n1, n2, o):\n    if n1 and n2 and o == \"\":\n        print(\"\\033[33m *** Please enter your numbers and operand ***\\033[30m\")\n    else:\n        match o:\n            case \"+\":\n                return(add(n1, n2))\n            case \"-\":",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "op = input(\"\\033[33m ----- Enter your operand: -----\\033[30m\\n\")\ndef main(n1, n2, o):\n    if n1 and n2 and o == \"\":\n        print(\"\\033[33m *** Please enter your numbers and operand ***\\033[30m\")\n    else:\n        match o:\n            case \"+\":\n                return(add(n1, n2))\n            case \"-\":\n                return(subtract(n1, n2))",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "res",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "res = main(num_1, num_2, op)\nprint(\"\\033[32m ----- RESULT ----- \\n\\033[1m\" + str(res) + \"\\033[30m\\033[0m\")\n# print(res)",
+        "detail": "main",
+        "documentation": {}
+    }
+]
