@@ -25,4 +25,8 @@ def main(n1, n2, o):
                 
 res = main(num_1, num_2, op)
 print("\033[32m ----- RESULT ----- \n\033[1m" + str(res) + "\033[30m\033[0m")
-# print(res)
+
+
+# TODO 1. fix git ignore
+# TODO 2. R&D for usage return and print
+# TODO 3. handle edge cases

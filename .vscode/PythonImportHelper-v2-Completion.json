@@ -108,7 +108,7 @@
         "kind": 5,
         "importPath": "main",
         "description": "main",
-        "peekOfCode": "res = main(num_1, num_2, op)\nprint(\"\\033[32m ----- RESULT ----- \\n\\033[1m\" + str(res) + \"\\033[30m\\033[0m\")\n# print(res)",
+        "peekOfCode": "res = main(num_1, num_2, op)\nprint(\"\\033[32m ----- RESULT ----- \\n\\033[1m\" + str(res) + \"\\033[30m\\033[0m\")\n# TODO 1. fix git ignore\n# TODO 2. R&D for usage return and print\n# TODO 3. handle edge cases",
         "detail": "main",
         "documentation": {}
     }
