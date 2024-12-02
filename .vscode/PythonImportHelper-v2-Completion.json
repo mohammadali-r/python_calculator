@@ -90,7 +90,7 @@
         "kind": 5,
         "importPath": "main",
         "description": "main",
-        "peekOfCode": "res = main(num_1, num_2, op)\nprint(\"\\033[32m ----- RESULT ----- \\n\\033[1m\" + str(res) + \"\\033[30m\\033[0m\")\n# TODO 1. fix git ignore\n# TODO 3. handle edge cases",
+        "peekOfCode": "res = main(num_1, num_2, op)\nprint(\"\\033[32m ----- RESULT ----- \\n\\033[1m\" + str(res) + \"\\033[30m\\033[0m\")\n# TODO 1. fix git ignore\n# TODO 3. handle edge cases\n# test",
         "detail": "main",
         "documentation": {}
     }
