@@ -37,5 +37,3 @@ print("\033[32m ----- RESULT ----- \n\033[1m" + str(res) + "\033[30m\033[0m")
 # TODO 1. fix git ignore
 
 # TODO 3. handle edge cases
-
-# test
