@@ -1,7 +1,7 @@
-from operations.add import add
-from operations.subtract import subtract
-from operations.multiply import multiply
-from operations.divide import divide
+from utils.add import add
+from utils.subtract import subtract
+from utils.multiply import multiply
+from utils.divide import divide
 
 try:
     num_1 = int(input("\033[33m ----- Enter your first number: -----\033[30m\n"))
